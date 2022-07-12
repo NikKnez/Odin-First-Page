@@ -1,6 +1,17 @@
 .header {
     background-color: #1f2937;
-   
+    padding: 0px 50px 100px 50px;
+}
+
+.front img {
+    width: 600px;
+    height: 300px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .logo {
@@ -19,8 +30,8 @@ a {
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: right;
-    margin: 10px;
+    flex-direction: row;
+    gap: 16px;
 }
 
 .hero {
@@ -42,15 +53,22 @@ ul {
     padding: 8px 16px;
 }
 
-.main_image img {
-    width: 600px;
-    height: 300px;
-}
+
 
 .random {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .info img {
@@ -69,7 +87,24 @@ ul {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+    padding: 100px;
 }
+
+.goat {
+    margin-top: 30px;
+    text-align: right;
+}
+
+
+.action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    
+}
+
+
+
+
 
 .footer {
     background-color: #1f2937;
