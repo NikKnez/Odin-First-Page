@@ -122,16 +122,19 @@ ul {
     margin: 30px 50px;
     padding: 50px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
 }
 
 .call {
     font-size: 30px;
     font-weight: bold;
+    margin-left: 100px;
 }
 
 .sign {
     font-size: 20px;
+    margin-left: 100px;
 }
 
 .sign_up {
@@ -140,12 +143,26 @@ ul {
     border-radius: 8px;
     border: 2px solid #f9faf8;
     font-size: 20px;
+    width: 150px;
+}
+
+.button_sign {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
 }
 
 
+.Odin {
+    margin: 30px 80px;
+}
 
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
